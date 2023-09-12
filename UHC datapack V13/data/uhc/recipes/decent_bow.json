@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iT ",
+        "iIT",
+        "iT "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " # ",
+        "OLO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "item": "minecraft:orange_dye"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:blaze_rod",
+        "count": 1
+    }
+}

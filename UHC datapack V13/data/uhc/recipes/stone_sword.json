@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "W#W",
+        " S "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone_sword"
+        },
+        "S": {
+            "item": "minecraft:coal_block"
+        },
+        "W": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

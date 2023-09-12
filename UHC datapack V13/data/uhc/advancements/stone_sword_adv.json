@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:stone_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/stone_sword"
+    }
+}

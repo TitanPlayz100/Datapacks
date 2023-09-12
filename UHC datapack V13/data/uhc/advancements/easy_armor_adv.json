@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:easy_armor"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/easy_armor"
+    }
+}

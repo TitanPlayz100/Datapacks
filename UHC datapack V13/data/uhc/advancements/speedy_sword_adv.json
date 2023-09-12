@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:speedy_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/speedy_sword"
+    }
+}

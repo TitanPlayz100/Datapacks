@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "LBL",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_block"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "B": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "minecraft:experience_bottle",
+        "count": 20
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:iron_shielder_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/iron_shielder_sword"
+    }
+}

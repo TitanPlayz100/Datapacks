@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:knockback_stick"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/knockback_stick"
+    }
+}

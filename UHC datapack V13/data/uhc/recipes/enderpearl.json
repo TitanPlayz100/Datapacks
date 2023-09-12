@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "g/S",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lava_bucket"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "S": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+    }
+}

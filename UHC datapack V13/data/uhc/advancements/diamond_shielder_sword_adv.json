@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:diamond_shielder_sword"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/diamond_shielder_sword"
+    }
+}

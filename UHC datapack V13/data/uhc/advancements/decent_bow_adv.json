@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "uhc:decent_bow"
+            }
+        }
+    },
+    "rewards": {
+        "function": "uhc:crafts/decent_bow"
+    }
+}
