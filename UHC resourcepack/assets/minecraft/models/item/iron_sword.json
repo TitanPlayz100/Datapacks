@@ -1,0 +1,22 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+ "layer0": "item/iron_sword"
+ },
+ 
+ "overrides": [
+    { 
+     "predicate": {
+         "custom_model_data": 123456
+        }, 
+    "model": "item/shielder_sword"
+    },
+    { 
+     "predicate": {
+         "custom_model_data": 123457
+        }, 
+    "model": "item/speedy_sword"
+    }
+ ]
+
+}
