@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": "Heart Warming Beverage",
+    "description": "Gain another heart from drinking a heart in a bottle",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lifesteal:ingame/bottled",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
