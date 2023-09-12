@@ -1,0 +1,14 @@
+execute if score @s elytra_cd matches 1..3 run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1.49
+execute if score @s elytra_cd matches 1..3 run title @s actionbar [{"text":"Ability recharged!","color":"green"}]
+execute if score @s elytra_cd matches 60.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 120.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 180.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 240.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 300.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 360.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 420.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 480.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 540.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s elytra_cd matches 599 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+
+

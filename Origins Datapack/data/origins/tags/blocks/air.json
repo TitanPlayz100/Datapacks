@@ -1,0 +1,23 @@
+{
+  "values":[
+	"minecraft:air",
+	"minecraft:cobweb",
+	"minecraft:grass",
+	"minecraft:tall_grass",
+	"minecraft:fern",
+	"minecraft:dead_bush",
+	"minecraft:water",
+	"minecraft:weeping_vines",
+	"minecraft:twisting_vines",
+	"minecraft:sugar_cane",
+	"minecraft:bamboo",
+	"minecraft:cave_air",
+	"minecraft:barrier",
+	"minecraft:large_fern",
+	"minecraft:sunflower",
+	"minecraft:lilac",
+	"minecraft:rose_bush",
+	"minecraft:peony",
+	"minecraft:scaffolding"
+  ]
+}

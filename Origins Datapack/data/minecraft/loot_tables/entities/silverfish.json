@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Origin Changer\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Eat this to change your origin\",\"color\":\"red\",\"bold\":false,\"italic\":false}']},HideFlags:127,CustomModelData:123456,change:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.005
+        }
+      ]
+    }
+  ]
+}

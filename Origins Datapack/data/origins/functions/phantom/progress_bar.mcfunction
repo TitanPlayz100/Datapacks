@@ -1,0 +1,29 @@
+execute if score @s arachnid_cd matches 1 at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1.49
+execute if score @s phantom_cd matches 1 run title @s actionbar [{"text":"Ability recharged!","color":"green"}]
+execute if score @s phantom_cd matches 45 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 90 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 136 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 181 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 227 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 272 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 318 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 363 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 409 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 454 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+
+execute if score @s phantom_cd matches 500 run title @s actionbar [{"text":"Spectator mode ended!","color":"green"}]
+execute if score @s phantom_cd matches 501 at @s run summon fireball ~ ~ ~ {ExplosionPower:2b,power:[0.0,-1.0,0.0],Item:{id:"minecraft:oak_button",Count:1b}}
+
+execute if score @s phantom_cd matches 510 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 520 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 530 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 540 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 550 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 560 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 570 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 580 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 590 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s phantom_cd matches 599 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+
+
+

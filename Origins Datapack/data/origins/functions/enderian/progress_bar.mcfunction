@@ -1,0 +1,14 @@
+execute if score @s ender_cooldown matches 1 run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1.49
+execute if score @s ender_cooldown matches 16.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 32.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 48.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 64.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 80.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 96.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 112.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 128.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"green"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 144.. run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24","color":"dark_green"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 159 run title @s actionbar [{"text":"-{","color":"gray"},{"text":"\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24\u2B24","color":"red"},{"text":"}-","color":"gray"}]
+execute if score @s ender_cooldown matches 1 run title @s actionbar [{"text":"Ability recharged!","color":"green"}]
+
+
